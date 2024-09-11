@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+                           
+       <bean id ="product1" class="com.hex.spring.com.hex.spring2.Product" >
+       		<constructor-arg index ="0" value ="Pen" />
+       		<constructor-arg index ="1" value ="500.00"/>
+       	
+       		
+       		</bean>
+       	<bean id ="cart1" class="com.hex.spring.com.hex.spring2.Cart" >
+       		<constructor-arg index ="0" value ="5" />
+       		<constructor-arg index ="1" value ="500"/>
+       		
+       	
+       
+                           
+    </bean>
+    
+    
+       </beans>
